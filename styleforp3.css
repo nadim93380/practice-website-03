@@ -5,6 +5,10 @@ header{
     padding: 10px 0 15px 0;
     
 }
+@font-face {
+    font-family: metalord;
+    src: url(font/metalord.ttf);
+}
 
 li{
     /* display: flex; */
@@ -14,7 +18,8 @@ li{
 nav li a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: metalord;
 
 }
 
@@ -26,12 +31,19 @@ nav li a{
     color: aliceblue;
     margin-right: 1100px;
     margin-left: 35px;
+    font-family: metalord;
     
 }
 .page{
     margin-left: 20px;
+    /* background-color: transparent; */
 }
 
+.page:hover{
+    color: black;
+    box-shadow: 2px 2px 8px rgb(96, 151, 212);
+    
+}
 div{
     background-image: url(image/main\ bg.jpg);
     background-repeat: no-repeat;
